@@ -1,2 +1,3 @@
-# kicad-library
+# My Kicad library
+
 My kicad library
