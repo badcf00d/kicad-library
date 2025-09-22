@@ -3914,61 +3914,7 @@
 				)
 			)
 			(pin power_in line
-				(at -30.48 35.56 0)
-				(length 5.08)
-				(name "AVDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -30.48 33.02 0)
-				(length 5.08)
-				(name "DAC_AVDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "56"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -30.48 27.94 0)
-				(length 5.08)
-				(name "DVDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -30.48 25.4 0)
+				(at -30.48 36.83 0)
 				(length 5.08)
 				(name "DAC_DVDD"
 					(effects
@@ -3986,7 +3932,7 @@
 				)
 			)
 			(pin power_in line
-				(at -30.48 22.86 0)
+				(at -30.48 34.29 0)
 				(length 5.08)
 				(name "DAC_DVDD"
 					(effects
@@ -4004,7 +3950,61 @@
 				)
 			)
 			(pin power_in line
-				(at -30.48 17.78 0)
+				(at -30.48 31.75 0)
+				(length 5.08)
+				(name "DAC_AVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -30.48 29.21 0)
+				(length 5.08)
+				(name "DVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -30.48 26.67 0)
+				(length 5.08)
+				(name "AVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -30.48 22.86 0)
 				(length 5.08)
 				(name "DVDD_REG"
 					(effects
@@ -4022,7 +4022,7 @@
 				)
 			)
 			(pin power_in line
-				(at -30.48 12.7 0)
+				(at -30.48 15.24 0)
 				(length 5.08)
 				(name "CN"
 					(effects
@@ -4040,7 +4040,7 @@
 				)
 			)
 			(pin power_in line
-				(at -30.48 7.62 0)
+				(at -30.48 10.16 0)
 				(length 5.08)
 				(name "CP"
 					(effects

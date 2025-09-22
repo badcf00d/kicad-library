@@ -373,7 +373,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "CSCF2014-5R5MC"
+	(symbol "CSCF2014-7R0MC"
 		(pin_numbers
 			(hide yes)
 		)
@@ -392,7 +392,7 @@
 				)
 			)
 		)
-		(property "Value" "5.5uH"
+		(property "Value" "7.0uH"
 			(at 1.905 0 90)
 			(effects
 				(font
@@ -436,7 +436,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CSCF2014-5R5MC"
+		(property "MPN" "CSCF2014-7R0MC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -462,7 +462,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "CSCF2014-5R5MC_0_1"
+		(symbol "CSCF2014-7R0MC_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -512,7 +512,7 @@
 				)
 			)
 		)
-		(symbol "CSCF2014-5R5MC_1_1"
+		(symbol "CSCF2014-7R0MC_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 1.27)
