@@ -4292,42 +4292,6 @@
 				)
 			)
 			(pin input line
-				(at -30.48 -40.64 0)
-				(length 5.08)
-				(name "RESET_AMP_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -30.48 -43.18 0)
-				(length 5.08)
-				(name "DAC_MUTE_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "45"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -30.48 -45.72 0)
 				(length 5.08)
 				(name "ADR"
@@ -4579,42 +4543,6 @@
 					)
 				)
 			)
-			(pin open_collector line
-				(at 30.48 2.54 180)
-				(length 5.08)
-				(name "CLIP_OTW_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 30.48 -2.54 180)
-				(length 5.08)
-				(name "FAULT_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin output line
 				(at 30.48 -7.62 180)
 				(length 5.08)
@@ -4842,6 +4770,80 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TAS3251DKQ_1_1"
+			(pin input line
+				(at -30.48 -40.64 0)
+				(length 5.08)
+				(name "~{RESET_AMP}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -30.48 -43.18 0)
+				(length 5.08)
+				(name "~{DAC_MUTE}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 30.48 2.54 180)
+				(length 5.08)
+				(name "~{CLIP_OTW}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 30.48 -2.54 180)
+				(length 5.08)
+				(name "~{FAULT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
 					(effects
 						(font
 							(size 1.27 1.27)
