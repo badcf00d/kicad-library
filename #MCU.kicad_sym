@@ -564,7 +564,7 @@
 				)
 			)
 			(pin input line
-				(at -31.75 -35.56 0)
+				(at -31.75 -38.1 0)
 				(length 2.54)
 				(name "RUN"
 					(effects
@@ -582,7 +582,7 @@
 				)
 			)
 			(pin output line
-				(at -31.75 -40.64 0)
+				(at -31.75 -43.18 0)
 				(length 2.54)
 				(name "SWCLK"
 					(effects
@@ -600,7 +600,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -31.75 -43.18 0)
+				(at -31.75 -45.72 0)
 				(length 2.54)
 				(name "SWD"
 					(effects
@@ -852,6 +852,24 @@
 				)
 			)
 			(pin bidirectional line
+				(at 31.75 45.72 180)
+				(length 2.54)
+				(name "USB_DM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at 31.75 43.18 180)
 				(length 2.54)
 				(name "USB_DP"
@@ -862,24 +880,6 @@
 					)
 				)
 				(number "52"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 31.75 40.64 180)
-				(length 2.54)
-				(name "USB_DM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "51"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1356,7 +1356,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 31.75 -35.56 180)
+				(at 31.75 -38.1 180)
 				(length 2.54)
 				(name "GPIO26_ADC0"
 					(effects
@@ -1374,7 +1374,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 31.75 -38.1 180)
+				(at 31.75 -40.64 180)
 				(length 2.54)
 				(name "GPIO27_ADC1"
 					(effects
@@ -1392,7 +1392,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 31.75 -40.64 180)
+				(at 31.75 -43.18 180)
 				(length 2.54)
 				(name "GPIO28_ADC2"
 					(effects
@@ -1410,7 +1410,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 31.75 -43.18 180)
+				(at 31.75 -45.72 180)
 				(length 2.54)
 				(name "GPIO29_ADC3"
 					(effects

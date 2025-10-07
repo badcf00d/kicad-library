@@ -2665,10 +2665,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin open_collector line
 				(at 24.13 26.67 180)
 				(length 5.08)
-				(name "*I2CT_IRQ"
+				(name "~{I2CT_IRQ}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2719,10 +2719,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin open_collector line
 				(at 24.13 19.05 180)
 				(length 5.08)
-				(name "*I2CC_IRQ"
+				(name "~{I2CC_IRQ}"
 					(effects
 						(font
 							(size 1.27 1.27)
