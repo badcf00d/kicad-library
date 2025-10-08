@@ -3774,6 +3774,14 @@
 				(hide yes)
 			)
 		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "TAS3251DKQ"
 			(at 0 0 0)
 			(effects
@@ -3792,53 +3800,16 @@
 				(hide yes)
 			)
 		)
-		(symbol "TAS3251DKQ_0_1"
-			(polyline
-				(pts
-					(xy -25.4 55.88) (xy -25.4 -55.88)
-				)
+		(symbol "TAS3251DKQ_1_1"
+			(rectangle
+				(start -25.4 53.34)
+				(end 25.4 -53.34)
 				(stroke
-					(width 0.2032)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -25.4 -55.88) (xy 25.4 -55.88)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 25.4 55.88) (xy -25.4 55.88)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 25.4 -55.88) (xy 25.4 55.88)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin power_in line
@@ -4058,78 +4029,6 @@
 				)
 			)
 			(pin input line
-				(at -30.48 2.54 0)
-				(length 5.08)
-				(name "SPK_INA+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -30.48 0 0)
-				(length 5.08)
-				(name "SPK_INA-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -30.48 -2.54 0)
-				(length 5.08)
-				(name "SPK_INB+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -30.48 -5.08 0)
-				(length 5.08)
-				(name "SPK_INB-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -30.48 -10.16 0)
 				(length 5.08)
 				(name "MCLK"
@@ -4292,6 +4191,42 @@
 				)
 			)
 			(pin input line
+				(at -30.48 -40.64 0)
+				(length 5.08)
+				(name "~{RESET_AMP}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -30.48 -43.18 0)
+				(length 5.08)
+				(name "~{DAC_MUTE}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at -30.48 -45.72 0)
 				(length 5.08)
 				(name "ADR"
@@ -4327,17 +4262,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 30.48 50.8 180)
+			(pin open_collector line
+				(at 30.48 2.54 180)
 				(length 5.08)
-				(name "DAC_OUTB+"
+				(name "~{CLIP_OTW}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "29"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4345,197 +4280,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 30.48 48.26 180)
+			(pin open_collector line
+				(at 30.48 -2.54 180)
 				(length 5.08)
-				(name "DAC_OUTB-"
+				(name "~{FAULT}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 30.48 43.18 180)
-				(length 5.08)
-				(name "DAC_OUTA-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 30.48 40.64 180)
-				(length 5.08)
-				(name "DAC_OUTA+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 30.48 35.56 180)
-				(length 5.08)
-				(name "SPK_OUTA+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "41"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 30.48 33.02 180)
-				(length 5.08)
-				(name "SPK_OUTA-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "39"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 30.48 27.94 180)
-				(length 5.08)
-				(name "BST_A+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "44"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 30.48 25.4 180)
-				(length 5.08)
-				(name "BST_A-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "43"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 30.48 20.32 180)
-				(length 5.08)
-				(name "SPK_OUTB+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 30.48 17.78 180)
-				(length 5.08)
-				(name "SPK_OUTB-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 30.48 12.7 180)
-				(length 5.08)
-				(name "BST_B+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 30.48 10.16 180)
-				(length 5.08)
-				(name "BST_B-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
+				(number "28"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4778,36 +4533,114 @@
 				)
 			)
 		)
-		(symbol "TAS3251DKQ_1_1"
-			(pin input line
-				(at -30.48 -40.64 0)
+		(symbol "TAS3251DKQ_2_1"
+			(rectangle
+				(start -7.62 25.4)
+				(end 7.62 -25.4)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output line
+				(at 12.7 22.86 180)
 				(length 5.08)
-				(name "~{RESET_AMP}"
+				(name "DAC_OUTA+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "27"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+			(pin output line
+				(at 12.7 12.7 180)
+				(length 5.08)
+				(name "DAC_OUTA-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -12.7 180)
+				(length 5.08)
+				(name "DAC_OUTB+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -22.86 180)
+				(length 5.08)
+				(name "DAC_OUTB-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TAS3251DKQ_3_1"
+			(rectangle
+				(start -16.51 31.75)
+				(end 16.51 -31.75)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 			(pin input line
-				(at -30.48 -43.18 0)
+				(at -21.59 29.21 0)
 				(length 5.08)
-				(name "~{DAC_MUTE}"
+				(name "SPK_INA+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "45"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4815,17 +4648,17 @@
 					)
 				)
 			)
-			(pin open_collector line
-				(at 30.48 2.54 180)
+			(pin input line
+				(at -21.59 12.7 0)
 				(length 5.08)
-				(name "~{CLIP_OTW}"
+				(name "SPK_INA-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "29"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4833,17 +4666,179 @@
 					)
 				)
 			)
-			(pin open_collector line
-				(at 30.48 -2.54 180)
+			(pin input line
+				(at -21.59 -12.7 0)
 				(length 5.08)
-				(name "~{FAULT}"
+				(name "SPK_INB+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "28"
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 -29.21 0)
+				(length 5.08)
+				(name "SPK_INB-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 21.59 29.21 180)
+				(length 5.08)
+				(name "SPK_OUTA+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 21.59 17.78 180)
+				(length 5.08)
+				(name "SPK_OUTA-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 21.59 11.43 180)
+				(length 5.08)
+				(name "BST_A+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 21.59 8.89 180)
+				(length 5.08)
+				(name "BST_A-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 21.59 -8.89 180)
+				(length 5.08)
+				(name "BST_B+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 21.59 -11.43 180)
+				(length 5.08)
+				(name "BST_B-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 21.59 -17.78 180)
+				(length 5.08)
+				(name "SPK_OUTB+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 21.59 -29.21 180)
+				(length 5.08)
+				(name "SPK_OUTB-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
 					(effects
 						(font
 							(size 1.27 1.27)
