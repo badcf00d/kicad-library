@@ -235,7 +235,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "A768MS277M1GLAS022"
+		(property "mpn" "A768MS277M1GLAS022"
 			(at 0 0 0)
 			(effects
 				(font
