@@ -609,14 +609,14 @@
 			(pin output line
 				(at 22.86 17.78 180)
 				(length 5.08)
-				(name "MPO0"
+				(name "ERROR/INT0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "15"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -627,14 +627,14 @@
 			(pin output line
 				(at 22.86 15.24 180)
 				(length 5.08)
-				(name "MPO1"
+				(name "NPCM/INT1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "16"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -861,14 +861,14 @@
 			(pin output line
 				(at 22.86 -17.78 180)
 				(length 5.08)
-				(name "ERROR/INT0"
+				(name "MPO0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -879,14 +879,14 @@
 			(pin output line
 				(at 22.86 -20.32 180)
 				(length 5.08)
-				(name "NPCM/INT1"
+				(name "MPO1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)

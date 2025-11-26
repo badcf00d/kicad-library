@@ -35,7 +35,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "FCR684205R"
+		(property "Datasheet" "https://www.cliffuk.co.uk/products/optical/FCR684205R.pdf"
 			(at 9.144 18.034 0)
 			(effects
 				(font
