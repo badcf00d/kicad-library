@@ -1684,12 +1684,13 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PEC09-2120F-S0012"
+		(property "mpn" "PEC09-2120F-S0012"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "rotary switch encoder switch push button"
