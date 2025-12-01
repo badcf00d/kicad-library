@@ -1904,7 +1904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PIS63BTPW_v1.1.pdf#Digital---Addressable"
+		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PIS63BTPW_v1.2.pdf"
 			(at -34.544 -24.13 0)
 			(effects
 				(font
