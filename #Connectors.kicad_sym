@@ -393,7 +393,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LPFC013301S"
+		(property "Footprint" "#Connector:LPFC013301S"
 			(at 16.51 -94.92 0)
 			(effects
 				(font

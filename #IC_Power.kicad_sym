@@ -1851,7 +1851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DNT12_TEX"
+		(property "Footprint" "Package_SON:WSON-12-1EP_4x4mm_P0.5mm_EP2.6x3mm_ThermalVias"
 			(at -1.524 44.704 0)
 			(effects
 				(font
