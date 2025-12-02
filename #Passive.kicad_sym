@@ -803,7 +803,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CSCF2014-7R0MC"
+		(property "mpn" "CSCF2014-7R0MC"
 			(at 0 0 0)
 			(effects
 				(font
