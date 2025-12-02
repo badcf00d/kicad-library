@@ -5633,7 +5633,7 @@
 						)
 					)
 				)
-				(alternate "MICBIAS" power_in line)
+				(alternate "MICBIAS" power_out line)
 			)
 			(pin passive line
 				(at 16.51 -6.35 180)
@@ -5900,7 +5900,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -20.32 -7.62 0)
 				(length 5.08)
 				(name "VREF"
@@ -5918,7 +5918,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -20.32 -10.16 0)
 				(length 5.08)
 				(name "DREG"
