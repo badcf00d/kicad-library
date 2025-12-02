@@ -549,6 +549,46 @@
 				)
 			)
 		)
+		(symbol "LPF-C013301S_1_1"
+			(pin no_connect line
+				(at -2.54 -3.81 90)
+				(length 3.81)
+				(hide yes)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 7.62 -3.81 90)
+				(length 3.81)
+				(hide yes)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 	(symbol "Molex 15246100"
@@ -1789,7 +1829,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0 11.43 0)
+			(at 0 12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1797,7 +1837,7 @@
 			)
 		)
 		(property "Value" "NRJ6HM-1"
-			(at 0 8.89 0)
+			(at 0 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,7 +1845,7 @@
 			)
 		)
 		(property "Footprint" "#Connector:Jack_6.35mm_Neutrik_NRJ6HM-1_Horizontal"
-			(at 0 0 0)
+			(at 2.54 26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +1854,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.neutrik.com/en/product/nrj6hm-1"
-			(at 0 0 0)
+			(at 3.556 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,7 +1863,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)"
-			(at 0 0 0)
+			(at 0 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +1872,7 @@
 			)
 		)
 		(property "mpn" "NRJ6HM-1"
-			(at 0 0 0)
+			(at 14.732 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,7 +1881,7 @@
 			)
 		)
 		(property "Mouser" "568-NRJ6HM1"
-			(at 0 0 0)
+			(at 4.572 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,19 +1909,8 @@
 		)
 		(symbol "NRJ6HM-1_0_1"
 			(rectangle
-				(start -5.08 -5.08)
-				(end -6.35 -7.62)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start 2.54 6.35)
-				(end -5.08 -10.16)
+				(start -3.81 7.62)
+				(end 3.81 -7.62)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1890,136 +1919,129 @@
 					(type background)
 				)
 			)
+			(rectangle
+				(start -3.81 -3.81)
+				(end -5.08 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -3.81) (xy 0 -4.445) (xy 0.635 -3.81) (xy 0.635 1.27) (xy 3.81 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 6.096) (xy 0.254 5.588)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -3.81) (xy 1.905 -4.445) (xy 2.54 -3.81) (xy 3.81 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.778 1.016) (xy 2.032 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 -4.064) (xy 3.302 -4.572)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 6.35) (xy -1.27 6.35) (xy -1.27 -3.81) (xy -1.905 -4.445) (xy -2.54 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 3.81) (xy 0 3.81) (xy 0 6.096) (xy -0.254 5.588)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -1.27) (xy 1.778 -1.27) (xy 1.778 1.016) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -6.35) (xy 3.048 -6.35) (xy 3.048 -4.064) (xy 2.794 -4.572)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "NRJ6HM-1_1_1"
-			(polyline
-				(pts
-					(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 2.54 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 4.826) (xy -1.016 4.318)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.508 -0.254) (xy 0.762 -0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.778 -5.334) (xy 2.032 -5.842)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 5.08) (xy -2.54 5.08) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 2.54) (xy -1.27 2.54) (xy -1.27 4.826) (xy -1.524 4.318)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -2.54) (xy 0.508 -2.54) (xy 0.508 -0.254) (xy 0.254 -0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -7.62) (xy 1.778 -7.62) (xy 1.778 -5.334) (xy 1.524 -5.842)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin passive line
-				(at 0 -12.7 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 5.08 180)
+				(at 6.35 6.35 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -2037,7 +2059,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 2.54 180)
+				(at 6.35 3.81 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -2055,7 +2077,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
+				(at 6.35 1.27 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -2073,7 +2095,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -2.54 180)
+				(at 6.35 -1.27 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -2091,7 +2113,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -5.08 180)
+				(at 6.35 -3.81 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -2109,7 +2131,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -7.62 180)
+				(at 6.35 -6.35 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -2694,6 +2716,44 @@
 			)
 		)
 		(symbol "RCJ-2123_1_0"
+			(pin no_connect line
+				(at 0 -12.7 90)
+				(length 2.54)
+				(hide yes)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 3.81 -12.7 90)
+				(length 2.54)
+				(hide yes)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 11.43 7.62 180)
 				(length 2.54)

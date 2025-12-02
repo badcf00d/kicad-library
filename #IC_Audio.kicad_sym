@@ -4900,6 +4900,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -13.97 -2.54 0)
+				(length 3.81)
+				(name "EPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at 0 -11.43 90)
 				(length 3.81)
@@ -5482,7 +5500,7 @@
 						)
 					)
 				)
-				(number "25"
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
