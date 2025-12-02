@@ -1230,7 +1230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:CDFN-4_2x2.5mm_P1.65mm"
+		(property "Footprint" "#Passive:CDFN-4_2x2.5mm_P1.65mm"
 			(at 4.064 -26.924 0)
 			(effects
 				(font
