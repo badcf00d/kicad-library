@@ -4865,7 +4865,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -6.35 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -4884,7 +4884,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -6.35 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -4903,7 +4903,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -6.35 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -4922,7 +4922,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -6.35 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -4941,7 +4941,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -6.35 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -4960,7 +4960,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -6.35 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -4979,7 +4979,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -6.35 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -4998,7 +4998,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -6.35 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -5017,7 +5017,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -6.35 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -5036,7 +5036,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -6.35 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -5055,7 +5055,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -6.35 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -5074,7 +5074,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -6.35 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
