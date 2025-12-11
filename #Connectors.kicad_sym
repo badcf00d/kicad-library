@@ -3072,7 +3072,7 @@
 				(at 0 -22.86 90)
 				(length 5.08)
 				(hide yes)
-				(name "GND_B"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3080,25 +3080,6 @@
 					)
 				)
 				(number "B1_A12"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 15.24 180)
-				(length 5.08)
-				(hide yes)
-				(name "VBUS_B"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "B4_A9"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3345,10 +3326,12 @@
 					)
 				)
 			)
-			(pin power_in line
+		)
+		(symbol "USB4215-03-A_REVA_1_1"
+			(pin power_out line
 				(at 15.24 15.24 180)
 				(length 5.08)
-				(name "VBUS"
+				(name "USB_PWR"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3363,8 +3346,25 @@
 					)
 				)
 			)
-		)
-		(symbol "USB4215-03-A_REVA_1_1"
+			(pin power_out line
+				(at 15.24 15.24 180)
+				(length 5.08)
+				(hide yes)
+				(name "USB_PWR"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "B4_A9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
 				(at 15.24 10.16 180)
 				(length 5.08)
