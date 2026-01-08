@@ -2854,7 +2854,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "#Connector:RCJ-2121"
+		(property "Footprint" "#Connector:RCJ-22"
 			(at 0.762 33.02 0)
 			(effects
 				(font
@@ -2939,7 +2939,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 -1.27) (xy -7.62 -6.35)
+					(xy -7.62 -2.54) (xy -7.62 -7.62)
 				)
 				(stroke
 					(width 0.25)
@@ -2951,7 +2951,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 -1.27) (xy -5.08 -1.27)
+					(xy -7.62 -2.54) (xy -5.08 -2.54)
 				)
 				(stroke
 					(width 0.25)
@@ -2963,7 +2963,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 -6.35) (xy -5.08 -6.35)
+					(xy -7.62 -7.62) (xy -5.08 -7.62)
 				)
 				(stroke
 					(width 0.25)
@@ -2998,7 +2998,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.538 3.81) (xy -0.633 5.715)
+					(xy -2.538 2.54) (xy -0.633 4.445)
 				)
 				(stroke
 					(width 0.25)
@@ -3010,7 +3010,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.538 -5.08) (xy -0.633 -3.175)
+					(xy -2.538 -2.54) (xy -0.633 -4.445)
 				)
 				(stroke
 					(width 0.25)
@@ -3022,7 +3022,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.633 5.715) (xy 1.272 3.81)
+					(xy -0.633 4.445) (xy 1.272 2.54)
 				)
 				(stroke
 					(width 0.25)
@@ -3034,7 +3034,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.633 -3.175) (xy 1.272 -5.08)
+					(xy -0.633 -4.445) (xy 1.272 -2.54)
 				)
 				(stroke
 					(width 0.25)
@@ -3046,7 +3046,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 3.81) (xy 7.609 3.81)
+					(xy 1.27 2.54) (xy 7.609 2.54)
 				)
 				(stroke
 					(width 0.25)
@@ -3058,7 +3058,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -5.08) (xy 7.609 -5.08)
+					(xy 1.27 -2.54) (xy 7.609 -2.54)
 				)
 				(stroke
 					(width 0.25)
@@ -3069,7 +3069,7 @@
 				)
 			)
 			(circle
-				(center 8.244 3.81)
+				(center 8.244 2.54)
 				(radius 0.635)
 				(stroke
 					(width 0.25)
@@ -3080,7 +3080,7 @@
 				)
 			)
 			(circle
-				(center 8.244 -5.08)
+				(center 8.244 -2.54)
 				(radius 0.635)
 				(stroke
 					(width 0.25)
@@ -3091,7 +3091,7 @@
 				)
 			)
 			(text "X1"
-				(at 3.81 7.62 0)
+				(at 3.81 5.334 0)
 				(effects
 					(font
 						(size 1.48 1.48)
@@ -3100,7 +3100,7 @@
 				)
 			)
 			(text "X2"
-				(at 3.81 -6.35 0)
+				(at 3.81 -3.81 0)
 				(effects
 					(font
 						(size 1.48 1.48)
@@ -3111,7 +3111,7 @@
 		)
 		(symbol "RCJ-2223_0_1"
 			(rectangle
-				(start -10.16 10.16)
+				(start -10.16 8.89)
 				(end 8.89 -10.16)
 				(stroke
 					(width 0)
@@ -3142,7 +3142,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 3.81 180)
+				(at 11.43 2.54 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -3160,7 +3160,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 -5.08 180)
+				(at 11.43 -2.54 180)
 				(length 2.54)
 				(name "~"
 					(effects
