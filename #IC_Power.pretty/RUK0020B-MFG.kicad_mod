@@ -134,13 +134,13 @@
 		(uuid "cd9e881e-370f-4eca-bcec-b5c2ae9de7f3")
 	)
 	(fp_circle
-		(center -2.274999 -0.800001)
-		(end -2.149998 -0.800001)
+		(center -2.1 -0.800001)
+		(end -1.974999 -0.800001)
 		(stroke
-			(width 0.25)
+			(width 0.1)
 			(type solid)
 		)
-		(fill no)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "31e33ce6-e369-4aba-a599-2f035205716d")
 	)
@@ -195,6 +195,17 @@
 		(fill yes)
 		(layer "F.Paste")
 		(uuid "796db3dc-402b-4cb5-9bf8-835c3db1e46c")
+	)
+	(fp_rect
+		(start -1.8 -1.8)
+		(end 1.8 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "83a70eb9-db28-4cf8-9dff-5cf3128a4fee")
 	)
 	(fp_line
 		(start -1.549999 -1.549999)
