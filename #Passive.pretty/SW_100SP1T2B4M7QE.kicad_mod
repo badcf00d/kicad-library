@@ -288,7 +288,6 @@
 		(drill 1.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(uuid "1fe94fed-9d43-47c3-880a-aa30347d91e1")
 	)
 	(pad "2" thru_hole circle
@@ -297,7 +296,6 @@
 		(drill 1.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(uuid "550825f5-c245-4d78-8d29-32d18f10bb16")
 	)
 	(pad "3" thru_hole circle
@@ -306,7 +304,6 @@
 		(drill 1.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(uuid "673364a7-3783-46b0-93f2-eac1912cdac5")
 	)
 	(pad "S1" thru_hole circle
@@ -316,7 +313,6 @@
 		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(zone_connect 0)
 		(uuid "6c775a61-2ba5-453b-acfc-964c4358455b")
 	)
@@ -327,7 +323,6 @@
 		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(zone_connect 0)
 		(uuid "bbfa018b-1efb-45bf-9e6b-ceebb91df295")
 	)

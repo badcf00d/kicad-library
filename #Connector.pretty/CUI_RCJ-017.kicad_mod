@@ -398,7 +398,6 @@
 		(drill 2.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(uuid "248c8e86-e83a-4800-9882-664b651afa77")
 	)
 	(pad "1B" thru_hole circle
@@ -407,7 +406,6 @@
 		(drill 2.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(uuid "9bdffff4-db90-4db5-a8b5-b994d51ac5cd")
 	)
 	(pad "1C" thru_hole circle
@@ -416,7 +414,6 @@
 		(drill 2.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(uuid "4ca61003-057c-42c3-a2fa-57a55d19f753")
 	)
 	(pad "2" thru_hole circle
@@ -425,7 +422,6 @@
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(uuid "1b9dfe5f-d530-4523-ba63-b1c36c1d6914")
 	)
 	(embedded_fonts no)
