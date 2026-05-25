@@ -1,0 +1,270 @@
+(footprint "CDFN-4_2.5x3.2mm_P2.1mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CDFN, 4 Pin (https://ww1.microchip.com/downloads/aemDocuments/documents/TCG/ProductDocuments/DataSheets/DSC1001-3-4-1.8V-3.3V-Low-Power-Precision-CMOS-Oscillators-DS20005529.pdf#page=16), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "CDFN NoLead Microchip-DFN3225-4LD-PL-1")
+	(property "Reference" "REF**"
+		(at 0 -2.55 0)
+		(layer "F.SilkS")
+		(uuid "6be7e5f8-d4ca-4eb5-ba09-13282457f451")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CDFN-4_2.5x3.2mm_P2.1mm"
+		(at 0 2.55 0)
+		(layer "F.Fab")
+		(uuid "7e4b59f4-cbee-405b-9478-b2f755b5ba85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "012c5926-eca9-4c0b-8643-8d28c4901daa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79f4f5a5-d062-4c2d-ad3a-b690a4456811")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.36 -1.76)
+		(end 1.36 -1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "acfa0192-97c0-483d-90fa-69d60daf39ae")
+	)
+	(fp_line
+		(start 1.36 1.76)
+		(end -1.36 1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "219367a7-747f-4724-94b1-d68771a4d9ec")
+	)
+	(fp_poly
+		(pts
+			(xy -1.86 -1.05) (xy -2.19 -0.81) (xy -2.19 -1.29)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "025cc01f-92e7-4d74-9bfa-5fd0ac79556a")
+	)
+	(fp_line
+		(start -1.85 -1.75)
+		(end -1.5 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "570d1f30-e7f2-462a-8970-de8c468de4e3")
+	)
+	(fp_line
+		(start -1.85 1.75)
+		(end -1.85 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "94cbb3a1-da26-4fae-b613-aacc6c704935")
+	)
+	(fp_line
+		(start -1.5 -1.85)
+		(end 1.5 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "26b6e380-d58e-4ad7-a98c-f91dafd8cc2e")
+	)
+	(fp_line
+		(start -1.5 -1.75)
+		(end -1.5 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "53f966d5-f2d5-4696-a634-9ac2a95db116")
+	)
+	(fp_line
+		(start -1.5 1.75)
+		(end -1.85 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "93045193-34e9-413c-aa6d-a00918868785")
+	)
+	(fp_line
+		(start -1.5 1.85)
+		(end -1.5 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6eff2f60-54af-46fa-9340-69273f489f6f")
+	)
+	(fp_line
+		(start 1.5 -1.85)
+		(end 1.5 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "38547839-9a3d-4b79-b849-e195ea53235a")
+	)
+	(fp_line
+		(start 1.5 -1.75)
+		(end 1.85 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9371dc7-98b0-458b-84b8-7836f3d2616c")
+	)
+	(fp_line
+		(start 1.5 1.75)
+		(end 1.5 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1631ec38-fb97-46e5-b0e7-4be39a369ad4")
+	)
+	(fp_line
+		(start 1.5 1.85)
+		(end -1.5 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4250c93c-9252-4455-964f-53ab7aebe687")
+	)
+	(fp_line
+		(start 1.85 -1.75)
+		(end 1.85 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8a42e854-4ab1-481a-98a1-6cddf4260587")
+	)
+	(fp_line
+		(start 1.85 1.75)
+		(end 1.5 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0e040ca-1c22-41a0-ae58-9ef72c43447c")
+	)
+	(fp_poly
+		(pts
+			(xy -0.625 -1.6) (xy 1.25 -1.6) (xy 1.25 1.6) (xy -1.25 1.6) (xy -1.25 -0.975)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "43f3fab6-e6e4-4918-bc45-70d4268a3b2a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "0bdae8f6-8f85-401b-9e2f-17ea68f5e050")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1 -1.05)
+		(size 1.2 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4c478b25-757e-4c11-b179-a510abdb5ecf")
+	)
+	(pad "2" smd roundrect
+		(at -1 1.05)
+		(size 1.2 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "48974aab-044f-40ca-910c-6ab9aefa402c")
+	)
+	(pad "3" smd roundrect
+		(at 1 1.05)
+		(size 1.2 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0c7b6dcf-a07f-4765-87ef-5f997e6f444d")
+	)
+	(pad "4" smd roundrect
+		(at 1 -1.05)
+		(size 1.2 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3dc86073-36f1-468f-b5c8-09d5a2a66bda")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
